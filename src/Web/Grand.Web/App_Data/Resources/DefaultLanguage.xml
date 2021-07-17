@@ -11173,6 +11173,9 @@
   <Resource Name="Admin.Settings.GeneralCommon.FacebookLink">
     <Value>Facebook page URL</Value>
   </Resource>
+  <Resource Name="Admin.Settings.GeneralCommon.GithubLink">
+    <Value>GitHub page URL</Value>
+  </Resource>
   <Resource Name="Admin.Settings.GeneralCommon.GenerateProductMetaDescription">
     <Value>If not provided, generate product META description automatically</Value>
   </Resource>

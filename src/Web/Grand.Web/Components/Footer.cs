@@ -101,6 +101,7 @@ namespace Grand.Web.ViewComponents
                 InstagramLink = _storeInformationSettings.InstagramLink,
                 LinkedInLink = _storeInformationSettings.LinkedInLink,
                 PinterestLink = _storeInformationSettings.PinterestLink,
+                GithubLink = _storeInformationSettings.GithubLink,
                 BlogEnabled = _blogSettings.Enabled,
                 KnowledgebaseEnabled = _knowledgebaseSettings.Enabled,
                 CompareProductsEnabled = _catalogSettings.CompareProductsEnabled,

@@ -132,63 +132,74 @@
                         </div>
                     </div>
                 </div>
-                <ol class="d-flex flex-row list-group justify-content-center w-100 flex-wrap social-icons list-pad pb-0 mb-3">
-                    @if (!string.IsNullOrEmpty(Model.FacebookLink))
-                    {
-                        <li class="list-group-item facebook">
-                            <a title="facebook" href="@Model.FacebookLink" rel="noopener" target="_blank">
-                                <img height="32" width="32" src="/theme/images/facebook.svg" alt="facebook" />
-                                <span class="sr-only">Facebook</span>
+            <ol class="d-flex flex-row list-group justify-content-center w-100 flex-wrap social-icons list-pad pb-0 mb-3">
 
-                            </a>
-                        </li>
-                    }
-                    @if (!string.IsNullOrEmpty(Model.TwitterLink))
-                    {
-                        <li class="list-group-item twitter">
-                            <a title="twitter" href="@Model.TwitterLink" rel="noopener" target="_blank">
-                                <img height="32" width="32" src="/theme/images/twitter.svg" alt="twitter" />
-                                <span class="sr-only">twitter</span>
-                            </a>
-                        </li>
-                    }
-                    @if (!string.IsNullOrEmpty(Model.YoutubeLink))
-                    {
-                        <li class="list-group-item youtube">
-                            <a title="youtube" href="@Model.YoutubeLink" rel="noopener" target="_blank">
-                                <img height="32" width="32" src="/theme/images/youtube.svg" alt="youtube" />
-                                <span class="sr-only">youtube</span>
-                            </a>
-                        </li>
-                    }
-                    @if (!string.IsNullOrEmpty(Model.InstagramLink))
-                    {
-                        <li class="list-group-item instagram">
-                            <a href="@Model.InstagramLink" rel="noopener" target="_blank">
-                                <img height="32" width="32" src="/theme/images/instagram.svg" alt="instagram" />
-                                <span class="sr-only">instagram</span>
-                            </a>
-                        </li>
-                    }
-                    @if (!string.IsNullOrEmpty(Model.LinkedInLink))
-                    {
-                        <li class="list-group-item linkedin">
-                            <a href="@Model.LinkedInLink" rel="noopener" target="_blank">
-                                <img height="32" width="32" src="/theme/images/linkedin.svg" alt="linkedin" />
-                                <span class="sr-only">linkedin</span>
-                            </a>
-                        </li>
-                    }
-                    @if (!string.IsNullOrEmpty(Model.PinterestLink))
-                    {
-                        <li class="list-group-item pinterest">
-                            <a href="@Model.PinterestLink" rel="noopener" target="_blank">
-                                <img height="32" width="32" src="/theme/images/pinterest.svg" alt="pinterest" />
-                                <span class="sr-only">pinterest</span>
-                            </a>
-                        </li>
-                    }
-                </ol>
+                @if (!string.IsNullOrEmpty(Model.FacebookLink))
+                {
+                    <li class="list-group-item facebook">
+                        <a title="facebook" href="@Model.FacebookLink" rel="noopener" target="_blank">
+                            <img height="32" width="32" src="/theme/images/facebook.svg" alt="facebook" />
+                            <span class="sr-only">Facebook</span>
+
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.TwitterLink))
+                {
+                    <li class="list-group-item twitter">
+                        <a title="twitter" href="@Model.TwitterLink" rel="noopener" target="_blank">
+                            <img height="32" width="32" src="/theme/images/twitter.svg" alt="twitter" />
+                            <span class="sr-only">twitter</span>
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.YoutubeLink))
+                {
+                    <li class="list-group-item youtube">
+                        <a title="youtube" href="@Model.YoutubeLink" rel="noopener" target="_blank">
+                            <img height="32" width="32" src="/theme/images/youtube.svg" alt="youtube" />
+                            <span class="sr-only">youtube</span>
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.InstagramLink))
+                {
+                    <li class="list-group-item instagram">
+                        <a href="@Model.InstagramLink" rel="noopener" target="_blank">
+                            <img height="32" width="32" src="/theme/images/instagram.svg" alt="instagram" />
+                            <span class="sr-only">instagram</span>
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.LinkedInLink))
+                {
+                    <li class="list-group-item linkedin">
+                        <a href="@Model.LinkedInLink" rel="noopener" target="_blank">
+                            <img height="32" width="32" src="/theme/images/linkedin.svg" alt="linkedin" />
+                            <span class="sr-only">linkedin</span>
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.PinterestLink))
+                {
+                    <li class="list-group-item pinterest">
+                        <a href="@Model.PinterestLink" rel="noopener" target="_blank">
+                            <img height="32" width="32" src="/theme/images/pinterest.svg" alt="pinterest" />
+                            <span class="sr-only">pinterest</span>
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.GithubLink))
+                {
+                    <li class="list-group-item github">
+                        <a title="github" href="@Model.GithubLink" rel="noopener" target="_blank">
+                            <img height="32" width="32" src="/theme/images/github.svg" alt="github" />
+                            <span class="sr-only">GitHub</span>
+
+                        </a>
+                    </li>
+                }
+            </ol>
             </div>
             <div class="footer-lower small py-3 border-top">
                 <div class="row">

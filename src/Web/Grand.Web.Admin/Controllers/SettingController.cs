@@ -794,6 +794,7 @@ namespace Grand.Web.Admin.Controllers
             model.StoreInformationSettings.InstagramLink = storeInformationSettings.InstagramLink;
             model.StoreInformationSettings.LinkedInLink = storeInformationSettings.LinkedInLink;
             model.StoreInformationSettings.PinterestLink = storeInformationSettings.PinterestLink;
+            model.StoreInformationSettings.GithubLink = storeInformationSettings.GithubLink;
 
             //common
             model.StoreInformationSettings.StoreInDatabaseContactUsForm = commonSettings.StoreInDatabaseContactUsForm;
@@ -904,6 +905,7 @@ namespace Grand.Web.Admin.Controllers
             storeInformationSettings.InstagramLink = model.StoreInformationSettings.InstagramLink;
             storeInformationSettings.LinkedInLink = model.StoreInformationSettings.LinkedInLink;
             storeInformationSettings.PinterestLink = model.StoreInformationSettings.PinterestLink;
+            storeInformationSettings.GithubLink = model.StoreInformationSettings.GithubLink;
 
             await _settingService.SaveSetting(storeInformationSettings, storeScope);
 

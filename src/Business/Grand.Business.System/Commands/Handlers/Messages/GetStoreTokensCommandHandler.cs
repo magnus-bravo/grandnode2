@@ -25,7 +25,8 @@ namespace Grand.Business.System.Commands.Handlers.Messages
                 YoutubeLink = _storeInformationSettings.YoutubeLink,
                 InstagramLink = _storeInformationSettings.InstagramLink,
                 LinkedInLink = _storeInformationSettings.LinkedInLink,
-                PinterestLink = _storeInformationSettings.PinterestLink
+                PinterestLink = _storeInformationSettings.PinterestLink,
+                GithubLink = _storeInformationSettings.GithubLink
             };
             return await Task.FromResult(liquidStore);
         }

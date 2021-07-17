@@ -80,6 +80,9 @@ namespace Grand.Web.Admin.Models.Settings
             [GrandResourceDisplayName("Admin.Settings.GeneralCommon.PinterestLink")]
             public string PinterestLink { get; set; }
 
+            [GrandResourceDisplayName("Admin.Settings.GeneralCommon.GithubLink")]
+            public string GithubLink { get; set; }
+
             [GrandResourceDisplayName("Admin.Settings.GeneralCommon.StoreInDatabaseContactUsForm")]
             public bool StoreInDatabaseContactUsForm { get; set; }
 

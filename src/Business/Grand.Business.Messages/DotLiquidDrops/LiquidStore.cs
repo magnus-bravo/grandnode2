@@ -83,6 +83,8 @@ namespace Grand.Business.Messages.DotLiquidDrops
         public string LinkedInLink { get; set; }
 
         public string PinterestLink { get; set; }
+        
+        public string GithubLink { get; set; }
 
         public IDictionary<string, string> AdditionalTokens { get; set; }
     }

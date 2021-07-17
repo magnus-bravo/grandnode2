@@ -16,13 +16,13 @@ namespace Grand.Web.Models.Common
         public string CompanyHours { get; set; }
         public string CompanyAddress { get; set; }
         public string CompanyPhone { get; set; }
-
         public string FacebookLink { get; set; }
         public string TwitterLink { get; set; }
         public string YoutubeLink { get; set; }
         public string InstagramLink { get; set; }
         public string LinkedInLink { get; set; }
         public string PinterestLink { get; set; }
+        public string GithubLink { get; set; }
         public bool PrivacyPreference { get; set; }
         public bool WishlistEnabled { get; set; }
         public bool ShoppingCartEnabled { get; set; }
